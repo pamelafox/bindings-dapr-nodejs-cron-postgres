@@ -27,6 +27,6 @@ module daprBindingPGResources '../core/flexibleserver.bicep' = {
     version: '11'
     administratorLogin: postgresUser
     administratorLoginPassword: postgresPassword
-    enableFirewall: true
+    allowAllIPsFirewall: true
   }
 }
